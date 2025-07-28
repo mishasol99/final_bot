@@ -1,0 +1,1 @@
+from .users_count_getter import get_users_count
