@@ -69,7 +69,7 @@ async def command_start_handler(message: Message, dialog_manager: DialogManager)
 async def main():
     logging.basicConfig(level=logging.INFO)
     bot = Bot(
-        token="7765941694:AAEbV53sZStimXMX98aVEMQpVyc8WoMtn3U",
+        token="8385824657:AAFFqzV-bBOF5bCv0uKlv0Dv_pSUXwu4Sa4",
         default=DefaultBotProperties(parse_mode='HTML')
     )
 
