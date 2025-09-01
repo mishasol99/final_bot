@@ -77,6 +77,7 @@ async def main():
     dp = Dispatcher(storage=storage)
 
     dp.include_router(router)
+    await bot.delete_webhook(drop_pending_updates=True)
     setup_dialogs(dp)
     dp.message.register(admin_start_cmd, Command('admin'))
 
