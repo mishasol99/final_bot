@@ -29,7 +29,7 @@ menu_dialog = Dialog(
         Column(
             WebApp(
                 Const("⭐️ Open App"),
-                url=Format("https://magical-vacherin-f9d236.netlify.app/"),
+                url=Format("https://telegram-ton-connect-app-mishasoligan380.replit.app/"),
                 id="open_app_btn",
             ),
         Url(Const("🆕 News"), id="news_btn", url=Format("https://t.me/StarBoxNewss")),
